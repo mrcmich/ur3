@@ -1,0 +1,13 @@
+material ContainerMaterial
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ../textures/container_texture.jpg
+      }
+    }
+  }
+}
