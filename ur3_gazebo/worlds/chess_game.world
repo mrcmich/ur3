@@ -368,7 +368,7 @@
     </model>
     
     <model name='container'>
-      <pose>-0.337 0 0.785 0 0 0</pose>
+      <pose>0 -0.337 0.785 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>1</mass>
