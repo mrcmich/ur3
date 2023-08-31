@@ -174,7 +174,7 @@
     </model>
     
     <model name='chess_board'>
-      <pose>0 0 0.785 0 0 0</pose>
+      <pose>0 0 0.785 0 0 -1.57</pose>
       <link name='link'>
         <inertial>
           <mass>0.5</mass>
@@ -354,7 +354,7 @@
     </model>
     
     <model name='pawn_white_1'>
-      <pose>0.11 -0.154 0.8 0 0 0</pose>
+      <pose>0.11 -0.154 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -460,7 +460,7 @@
     </model>
     
     <model name='pawn_white_2'>
-      <pose>0.11 -0.11 0.8 0 0 0</pose>
+      <pose>0.11 -0.11 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -566,7 +566,7 @@
     </model>
     
     <model name='pawn_white_3'>
-      <pose>0.11 -0.066 0.8 0 0 0</pose>
+      <pose>0.11 -0.066 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -672,7 +672,7 @@
     </model>
 
     <model name='pawn_white_4'>
-      <pose>0.11 -0.022 0.8 0 0 0</pose>
+      <pose>0.11 -0.022 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -778,7 +778,7 @@
     </model> 
 
     <model name='pawn_white_5'>
-      <pose>0.11 0.022 0.8 0 0 0</pose>
+      <pose>0.11 0.022 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -884,7 +884,7 @@
     </model>  
 
     <model name='pawn_white_6'>
-      <pose>0.11 0.066 0.8 0 0 0</pose>
+      <pose>0.11 0.066 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -990,7 +990,7 @@
     </model>
 
     <model name='pawn_white_7'>
-      <pose>0.11 0.11 0.8 0 0 0</pose>
+      <pose>0.11 0.11 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -1096,7 +1096,7 @@
     </model>
 
     <model name='pawn_white_8'>
-      <pose>0.11 0.154 0.8 0 0 0</pose>
+      <pose>0.11 0.154 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -1202,7 +1202,7 @@
     </model>
 
     <model name='rook_white_1'>
-      <pose>0.154 -0.154 0.8 0 0 0</pose>
+      <pose>0.154 -0.154 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -1308,7 +1308,7 @@
     </model>
 
     <model name='rook_white_2'>
-      <pose>0.154 0.154 0.8 0 0 0</pose>
+      <pose>0.154 0.154 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -1414,7 +1414,7 @@
     </model>
   
     <model name='knight_white_1'>
-      <pose>0.154 -0.11 0.8 0 0 3.14</pose>
+      <pose>0.154 -0.11 0.815 0 0 3.14</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -1520,7 +1520,7 @@
     </model>
 
     <model name='knight_white_2'>
-      <pose>0.154 0.11 0.8 0 0 3.14</pose>
+      <pose>0.154 0.11 0.815 0 0 3.14</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -1626,7 +1626,7 @@
     </model>
     
     <model name='bishop_white_1'>
-      <pose>0.154 -0.066 0.8 0 0 0</pose>
+      <pose>0.154 -0.066 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -1732,7 +1732,7 @@
     </model>
 
     <model name='bishop_white_2'>
-      <pose>0.154 0.066 0.8 0 0 0</pose>
+      <pose>0.154 0.066 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -1838,7 +1838,7 @@
     </model>
     
     <model name='queen_white'>
-      <pose>0.154 -0.022 0.8 0 0 0</pose>
+      <pose>0.154 -0.022 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -1944,7 +1944,7 @@
     </model>
     
     <model name='king_white'>
-      <pose>0.154 0.022 0.8 0 0 1.57</pose>
+      <pose>0.154 0.022 0.815 0 0 1.57</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -2050,7 +2050,7 @@
     </model>
 
     <model name='pawn_black_1'>
-      <pose>-0.11 0.154 0.8 0 0 0</pose>
+      <pose>-0.11 0.154 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -2156,7 +2156,7 @@
     </model>
 
     <model name='pawn_black_2'>
-      <pose>-0.11 0.11 0.8 0 0 0</pose>
+      <pose>-0.11 0.11 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -2262,7 +2262,7 @@
     </model>
 
     <model name='pawn_black_3'>
-      <pose>-0.11 0.066 0.8 0 0 0</pose>
+      <pose>-0.11 0.066 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -2368,7 +2368,7 @@
     </model>
 
     <model name='pawn_black_4'>
-      <pose>-0.11 0.022 0.8 0 0 0</pose>
+      <pose>-0.11 0.022 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -2474,7 +2474,7 @@
     </model>
 
     <model name='pawn_black_5'>
-      <pose>-0.11 -0.022 0.8 0 0 0</pose>
+      <pose>-0.11 -0.022 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -2580,7 +2580,7 @@
     </model>
 
     <model name='pawn_black_6'>
-      <pose>-0.11 -0.066 0.8 0 0 0</pose>
+      <pose>-0.11 -0.066 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -2686,7 +2686,7 @@
     </model>
 
     <model name='pawn_black_7'>
-      <pose>-0.11 -0.11 0.8 0 0 0</pose>
+      <pose>-0.11 -0.11 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -2792,7 +2792,7 @@
     </model>
 
     <model name='pawn_black_8'>
-      <pose>-0.11 -0.154 0.8 0 0 0</pose>
+      <pose>-0.11 -0.154 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -2896,9 +2896,9 @@
       <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
     </model>
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
     <model name='rook_black_1'>
-      <pose>-0.154 0.154 0.8 0 0 0</pose>
+      <pose>-0.154 0.154 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -3004,7 +3004,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     </model>
     
     <model name='rook_black_2'>
-      <pose>-0.154 -0.154 0.8 0 0 0</pose>
+      <pose>-0.154 -0.154 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -3110,7 +3110,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     </model>
     
     <model name='knight_black_1'>
-      <pose>-0.154 0.11 0.8 0 0 0</pose>
+      <pose>-0.154 0.11 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -3216,7 +3216,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     </model>
     
     <model name='knight_black_2'>
-      <pose>-0.154 -0.11 0.8 0 0 0</pose>
+      <pose>-0.154 -0.11 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -3322,7 +3322,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     </model>
     
     <model name='bishop_black_1'>
-      <pose>-0.154 0.066 0.8 0 0 3.14</pose>
+      <pose>-0.154 0.066 0.815 0 0 3.14</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -3428,7 +3428,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     </model>
     
     <model name='bishop_black_2'>
-      <pose>-0.154 -0.066 0.8 0 0 3.14</pose>
+      <pose>-0.154 -0.066 0.815 0 0 3.14</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -3534,7 +3534,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     </model>
     
     <model name='queen_black'>
-      <pose>-0.154 -0.022 0.8 0 0 0</pose>
+      <pose>-0.154 -0.022 0.815 0 0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
@@ -3640,7 +3640,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     </model>
     
     <model name='king_black'>
-      <pose>-0.154 0.022 0.8 0 0 1.57</pose>
+      <pose>-0.154 0.022 0.815 0 0 1.57</pose>
       <link name='link'>
         <inertial>
           <mass>0.1</mass>
