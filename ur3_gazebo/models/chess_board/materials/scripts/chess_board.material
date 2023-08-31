@@ -6,7 +6,7 @@ material ChessBoardMaterial
     {
       texture_unit
       {
-        texture ../textures/chess_board_texture.jpg
+        texture ../textures/chess_board_texture.png
       }
     }
   }
