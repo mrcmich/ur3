@@ -39,8 +39,8 @@
   -->
   <node name="spawn_gazebo_model" pkg="gazebo_ros" type="spawn_model"
         args="-urdf -param robot_description -model robot 
-              -x -0.335 -y 0.0 -z 0.775
-              -R 0.0 -P 0.0 -Y -1.57
+              -x -0.315 -y 0.0 -z 0.775
+              -R 0.0 -P 0.0 -Y 1.57
               -J shoulder_pan_joint 0
               -J shoulder_lift_joint -1.57
               -J elbow_joint 1.26
