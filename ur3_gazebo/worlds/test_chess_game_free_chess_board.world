@@ -256,7 +256,7 @@
     </model>
     
     <model name='area_captured_pieces_1'>
-      <pose>-0.31 -0.26 0.8 0 0 0</pose>
+      <pose>-0.088 -0.286 0.8 0 0 1.57</pose>
       <link name='link'>
         <inertial>
           <mass>1</mass>
@@ -304,7 +304,7 @@
     </model>
     
     <model name='area_captured_pieces_2'>
-      <pose>-0.31 0.26 0.8 0 0 0</pose>
+      <pose>-0.088 0.286 0.8 0 0 1.57</pose>
       <link name='link'>
         <inertial>
           <mass>1</mass>
